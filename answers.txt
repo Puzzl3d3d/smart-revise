@@ -930,5 +930,14 @@
   "What is meant by the term normal data?": "Data that is within the input domain",
   "A line of code states: x + y = z. What type of error is this likely to generate?": "Syntax error",
   "Why does a programmer use descriptive variable names?": "To make the program readable for another programmer",
-  "A line of code states: print(Total cost) What type of error is this likely to generate?": "Syntax error"
+  "A line of code states: print(Total cost) What type of error is this likely to generate?": "Syntax error",
+  "What is the purpose of the LIKE structure in SQL?": "To enable the use of wildcards in WHERE statements",
+  "https://smartrevisecdn.azureedge.net/qimages/39/1572456546.png?v=0": "(A OR B) AND C",
+  "https://smartrevisecdn.azureedge.net/qimages/39/-1074146819.png?v=0": "OR",
+  "https://smartrevisecdn.azureedge.net/qimages/39/-126931616.png?v=0": "NOT(A AND B)",
+  "https://smartrevisecdn.azureedge.net/qimages/39/105855457.png?v=0": "AND",
+  "https://smartrevisecdn.azureedge.net/qimages/39/305153339.png?v=0": "NOT A OR B",
+  "https://smartrevisecdn.azureedge.net/qimages/39/489509518.png?v=0": "NOT",
+  "https://smartrevisecdn.azureedge.net/qimages/39/916657911.png?v=0": "OR",
+  "https://smartrevisecdn.azureedge.net/qimages/39/1275917164.png?v=0": "AND"
 }
