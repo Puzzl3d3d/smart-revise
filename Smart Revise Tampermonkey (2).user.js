@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Smart Revise Tampermonkey
+// @name         AUTO Smart Revise Tampermonkey
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Autocompletes smart revise
@@ -10,6 +10,9 @@
 
 const questionTextID = "questiontext";
 const answerButtonID = "js_answerButton";
+const noticeButtonClass = "swal2-confirm";
+const nextButtonID = "lnkNext"
+const questionImageID = "question_img"
 
 const correctClass = "btn-success"
 const incorrectClass = "btn-danger"
@@ -21,8 +24,11 @@ var answerTable
 var old_question = ""
 
 function handle() {
-    const questiontext = document.getElementById(questionTextID);
-    var question = questiontext.innerText
+    //const questiontext = document.getElementById(questionTextID);
+    //var question = questiontext.innerText
+    const questiontext = (document.getElementById(questionImageID).src != "https://smartrevise.online/student/revise/Question/39" && document.getElementById(questionImageID)) || document.getElementById(questionTextID);
+    var question = questiontext.src || questiontext.innerText
+    console.log(question)
     if (question==old_question) {
         setTimeout( handle, 500 );
     } else {
@@ -33,73 +39,134 @@ function handle() {
             handleButton(answerButtons.item(i));
         }
     }
+    setTimeout(() => {
+         if (document.getElementsByClassName(noticeButtonClass)[0]) {
+             document.getElementsByClassName(noticeButtonClass)[0].click();
+         };
+    }, 2000);
 }
+/*function handle() {
+    var thisquestion = document.getElementById(questionTextID).innerText
+    var timeout
+
+    console.log("Handling new question '",thisquestion+"'", "'",old_question+"'")
+
+    if (thisquestion == old_question) {
+        document.getElementById(nextButtonID).click();
+
+        for (timeout of timeouts) {
+            clearTimeout(timeout);
+        }
+        timeouts.push(setTimeout( handle, 500 ))
+    } else {
+        for (timeout of timeouts) {
+            clearTimeout(timeout);
+        }
+        old_question = "FUCK JAVASCRIPT MAN";
+        question = thisquestion;
+        console.log("CLEAR THE FUCKING THING OMG STFU STUPID JAVASCRIPT FUCK YOU ITS 1:45AM");
+        var answerButtons = document.getElementsByClassName(answerButtonID);
+        for (var i = 0; i < answerButtons.length; i++) {
+            handleButton(answerButtons.item(i));
+        }
+    }
+}*/
 function hasClass(element, className) {
     return (' ' + element.className + ' ').indexOf(' ' + className+ ' ') > -1;
 }
-function onClick(button) {
-    if (hasClass(button, correctClass) || hasClass(button, incorrectClass) ) {
-        if (hasClass(button, correctClass)) {
-            button.style.backgroundColor = "#1dc9b7"
+function getAnswerTable() {
+   return JSON.parse(localStorage.getItem(dataName)) || localStorage.setItem(dataName, JSON.stringify({}))
+}
+function storeAnswer(answer) {
+    var answerTable = getAnswerTable()
 
-            var newValue
-                if (answerTable[old_question]) {
-                    if (typeof(answerTable[old_question]) == "object") {
-                        answerTable[old_question][answerTable[old_question].length] = button.innerText
-                    } else {
-                        answerTable[old_question] = [answerTable[old_question], button.innerText]
-                    }
-                } else {
-                    answerTable[old_question] = button.innerText
-                }
+    console.log("length:",Object.keys(answerTable).length, "\n value already in table:",answerTable[old_question], "\n answer to store:",answer)
 
-            localStorage.setItem(dataName, JSON.stringify(answerTable))
-            localStorage.setItem("AnswersSaved", Object.keys(answerTable).length)
+    if (answerTable[old_question]) {
+        if (typeof(answerTable[old_question]) == "object") {
+            if (!answerTable[old_question].includes(answer)) {
+                answerTable[old_question].push(answer)
+            }
         } else {
-            button.style.backgroundColor = "#fd397a"
+            if (!(answerTable[old_question] == answer)) {
+                answerTable[old_question] = [answerTable[old_question], answer]
+            }
+        }
+    } else {
+        answerTable[old_question] = answer
+    }
 
-            setTimeout( () => {
+    localStorage.setItem(dataName, JSON.stringify(answerTable))
+    localStorage.setItem("AnswersSaved", Object.keys(answerTable).length)
+
+    console.log("length:",Object.keys(answerTable).length, "\n value already in table:",answerTable[old_question], "\n answer to store:",answer)
+
+    answerTable = undefined
+}
+function onClick(button) {
+    setTimeout( () => {
+        console.log("Handling click")
+
+        if (hasClass(button, correctClass) || hasClass(button, incorrectClass) ) {
+            if (hasClass(button, correctClass)) {
+                button.style.backgroundColor = "#1dc9b7";
+
+                storeAnswer(button.innerText);
+            } else {
+                button.style.backgroundColor = "#fd397a"
+
                 var correctButton = document.getElementsByClassName(correctClass)[0];
 
                 correctButton.style.backgroundColor = "#1dc9b7"
 
-                var newValue
-                if (answerTable[old_question]) {
-                    if (typeof(answerTable[old_question]) == "object" && !answerTable[old_question].includes(button.innerText)) {
-                        answerTable[old_question][answerTable[old_question].length] = correctButton.innerText
-                    } else {
-                        answerTable[old_question] = [answerTable[old_question], correctButton.innerText]
-                    }
-                } else {
-                    answerTable[old_question] = correctButton.innerText
-                }
+                storeAnswer(correctButton.innerText);
+            }
 
-                localStorage.setItem(dataName, JSON.stringify(answerTable))
-                localStorage.setItem("AnswersSaved", Object.keys(answerTable).length)
-            }, 0)
+            handle()
+        } else {
+            setTimeout(() => {
+                onClick(button)
+            }, 250)
+            return
         }
 
-        handle()
-    } else {
         setTimeout(() => {
-            onClick(button)
-        }, 100)
-    }
+            if (document.getElementsByClassName(noticeButtonClass)[0]) {
+                document.getElementsByClassName(noticeButtonClass)[0].click();
+            };
+        }, 200);
+
+
+        setTimeout(() => {
+            document.getElementById(nextButtonID).click()
+        }, 1000)
+
+   }, 0)
 }
 function handleButton(button) {
     button.addEventListener("click", () => {
         onClick(button)
     });
+    button.disabled = true
     if (answerTable[old_question] && (answerTable[old_question] == button.innerText || answerTable[old_question].includes(button.innerText))) {
         button.style.backgroundColor = "blueviolet"
         setTimeout( () => {
+            button.disabled = false
             button.click()
-        }, 2000 )
+
+            setTimeout( () => { window.location.reload(); }, 1500 )
+        }, 2500 )
     } else {
         button.style.backgroundColor = "darkgray"
         setTimeout( () => {
+            button.disabled = false
             button.style.backgroundColor = "cornflowerblue"
-        }, 2000 )
+
+            setTimeout( () => {
+                button.click()
+                setTimeout( () => { window.location.reload(); }, 2500 )
+            }, 500 + Math.random()*50)
+        }, 2500 )
     }
 }
 
@@ -109,6 +176,8 @@ function handleButton(button) {
     // Your code here...
 
     answerTable = JSON.parse(localStorage.getItem(dataName)) || localStorage.setItem(dataName, JSON.stringify({}))
+
+    document.getElementById(nextButtonID).disabled = true
 
     handle()
 })();
