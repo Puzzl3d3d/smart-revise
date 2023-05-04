@@ -10,7 +10,8 @@
     "Data must be relevant and not excessive",
     "Data can only be processed for the purpose stated",
     "Data can only be kept for as long as it is necessary",
-    "Data must be kept secure"
+    "Data must be kept secure",
+    "Data can only be processed for the purpose stated"
   ],
   "The RAM might store…": [
     "Data being used by currently loaded programs",
@@ -69,14 +70,26 @@
     "If a switch fails the network will still function due to alternative routes for the data to use"
   ],
   "A brute force attack can be prevented with lock-out code. What is a lock-out?": "If a password is entered incorrectly a certain number of times the user cannot try again",
-  "What is the result of binary left shifting 0100 0010 one digit?": "1000 0100",
-  "When these two numbers are added together with 8 bit registers, what happens? 1100 0000 + 1110 0000": "An overflow error occurs",
-  "The main disadvantage of a star network is?": "If a central switch fails, everyone connected to it loses network access",
+  "What is the result of binary left shifting 0100 0010 one digit?": [
+    "1000 0100",
+    "1000 0100",
+    "1000 0100"
+  ],
+  "When these two numbers are added together with 8 bit registers, what happens? 1100 0000 + 1110 0000": [
+    "An overflow error occurs",
+    "An overflow error occurs"
+  ],
+  "The main disadvantage of a star network is?": [
+    "If a central switch fails, everyone connected to it loses network access",
+    "If a central switch fails, everyone connected to it loses network access"
+  ],
   "What is one reason why a Government may decide to restrict access to The Internet?": [
     "To prevent political unrest",
-    "To preserve their culture"
+    "To preserve their culture",
+    "To prevent political unrest"
   ],
   "A desktop PC with an internal single drive of 8TB is likely to be…": [
+    "Magnetic",
     "Magnetic",
     "Magnetic"
   ],
@@ -84,14 +97,19 @@
     "There is a common system bus for data and instruction transfer",
     "The CPU cannot access instructions and read/write data at the same time",
     "The same physical memory address is used for instructions and data",
-    "More than one clock cycle may be required to execute a single instruction"
+    "More than one clock cycle may be required to execute a single instruction",
+    "There is a common system bus for data and instruction transfer"
   ],
-  "What do routers on a wide area network use for routing data?": "IP address",
+  "What do routers on a wide area network use for routing data?": [
+    "IP address",
+    "IP address"
+  ],
   "What is one purpose of the CPU?": [
     " Execute instructions",
     "Execute instructions",
     "Decode instructions",
-    "Fetch instructions"
+    "Fetch instructions",
+    "Execute instructions"
   ],
   "What is meant by 'the cloud'?": [
     "Remote servers that store data and software that can be accessed over the internet",
@@ -373,15 +391,31 @@
   "When considering the ethical issues of computer science, we can discuss a 'digital divide'. What is meant by this term?": "Access to IT is not equal for all people",
   "What is *?": "Arithmetic operator",
   "What is the output when the following commands are executed?\ns = 'HelloWorld'\nprint(s)\n": "HelloWorld",
-  "What is the purpose of the FROM structure in SQL?": "To define which tables will be used",
-  "1024 terabytes is called a…": "Petabyte",
-  "A university is installing transmission media between switches in different parts of the campus. It needs to be fast and reliable, cost is not an issue, what would you recommend?": "Fibre optic",
+  "What is the purpose of the FROM structure in SQL?": [
+    "To define which tables will be used",
+    "To define which tables will be used"
+  ],
+  "1024 terabytes is called a…": [
+    "Petabyte",
+    "Petabyte"
+  ],
+  "A university is installing transmission media between switches in different parts of the campus. It needs to be fast and reliable, cost is not an issue, what would you recommend?": [
+    "Fibre optic",
+    "Fibre optic"
+  ],
   "A program is written which asks a user for the width, length and depth of a fish tank. It then multiplies the three figures together and tells the user the volume. Identify an output of this problem.": [
     " Volume",
+    "Volume",
     "Volume"
   ],
-  "A collection of related data items for one entity is commonly referred to as a…": "record",
-  "Consider this command: print(board[3,2]). What is the number 3 in this command?": "An index",
+  "A collection of related data items for one entity is commonly referred to as a…": [
+    "record",
+    "record"
+  ],
+  "Consider this command: print(board[3,2]). What is the number 3 in this command?": [
+    "An index",
+    "An index"
+  ],
   "The reason a computer needs secondary storage is because…": "RAM is volatile and has a relatively small capacity",
   "Which of the following offers the highest bandwidth?": "Fibre optic",
   "What is meant by the term, 'character set'?": "A defined list of characters recognised by the computer hardware and software",
@@ -668,8 +702,14 @@
   "Which flow diagram symbol is used to signify an input?": "Parallelogram",
   "Which of the following is not an advantage of wired networks over Wi-Fi?": "Requires physical connection to the network",
   "Which one of the following is least likely to affect the performance of the CPU?": "Choice of operating system",
-  "What is a firewall?": "Software that enforces a set of rules about what data packets will be allowed to enter or leave a network",
-  "A disadvantage of pseudocode is that…": "There are no established standards",
+  "What is a firewall?": [
+    "Software that enforces a set of rules about what data packets will be allowed to enter or leave a network",
+    "Software that enforces a set of rules about what data packets will be allowed to enter or leave a network"
+  ],
+  "A disadvantage of pseudocode is that…": [
+    "There are no established standards",
+    "There are no established standards"
+  ],
   "What data type should be used for storing a telephone number?": "String",
   "Consider this list of numbers: 9 3 6 8 4 7. Why are they not suitable for a binary search?": "The numbers are not in order",
   "What does the protocol 'SMTP' stand for?": "Simple Mail Transfer Protocol",
@@ -713,7 +753,10 @@
   "What is meant by the term casting?": "Converting a variable from one data type to another",
   "Which word should be used in this sentence? High level source code can be … into machine code using a compiler.": "translated",
   "What technique can be used to make sure no logical errors exist in an algorithm?": "Trace table",
-  "How is a digital sample size calculated?": "(Sample rate) x (Bit depth per sample) x (Duration in seconds)",
+  "How is a digital sample size calculated?": [
+    "(Sample rate) x (Bit depth per sample) x (Duration in seconds)",
+    "(Sample rate) x (Bit depth per sample) x (Duration in seconds)"
+  ],
   "Assuming f is a pointer to an open file, what is the purpose of the following line of pseudocode? f.writeLine('Hello World')": "Write the string Hello World to a file",
   "What is the purpose of the POP protocol?": "To retrieve email from an email server",
   "What do switches on a local area network use for routing data?": "MAC address",
@@ -727,5 +770,165 @@
   "If A = 0, B = 1. What is the output from the Boolean expression: NOT(A AND NOT B)?": "1",
   "If A = 0, B = 0, C = 1, D = 1. What is the output from the Boolean expression: (A OR B)AND(C OR D)?": "0",
   "What diagram can we use to help us break down a problem in order to identify the components of a problem?": "Structure diagram",
-  "Consider this list of numbers: 9 3 6 8 4 7. After three comparisons have been made the list is 3 6 9 8 4 7. Which algorithm is being applied?": "Insertion sort"
+  "Consider this list of numbers: 9 3 6 8 4 7. After three comparisons have been made the list is 3 6 9 8 4 7. Which algorithm is being applied?": "Insertion sort",
+  "What is the purpose of a device driver?": [
+    "Translates commands from the operating system into hardware specific commands",
+    "Translates commands from the operating system into hardware specific commands"
+  ],
+  "Identify a type check.": [
+    "Input is a number not a symbol, e.g. 0 not @",
+    "Input is a number not a symbol, e.g. 0 not @"
+  ],
+  "If you were advising another programmer about using comments, what would you recommend?": [
+    "Use a comment for each selection, iteration and procedure or function",
+    "Use a comment for each selection, iteration and procedure or function"
+  ],
+  "A program asks for a month of the year as an integer. The user inputs 12. This is an example of…": [
+    "Boundary data",
+    "Boundary data"
+  ],
+  "Reliability of data entry is often an issue with this type of interface.": [
+    "Natural language interface",
+    "Natural language interface"
+  ],
+  "Which components of a computer system would you associate a device driver with?": [
+    "Peripherals",
+    "Peripherals"
+  ],
+  "Identify a presence check.": [
+    "Input of some data, e.g. user hasn't left the field blank",
+    "Input of some data, e.g. user hasn't left the field blank"
+  ],
+  "When a program is loaded, what does the operating system do?": [
+    "Allocate memory for the program",
+    "Allocate memory for the program"
+  ],
+  "Why is virtual memory used?": [
+    "To allow more programs to execute than could be possible with the physical RAM available",
+    "To allow more programs to execute than could be possible with the physical RAM available"
+  ],
+  "Which of these tasks is the responsibility of the operating system?": [
+    "User management",
+    "Peripheral management",
+    "Deciding where to load programs in to the RAM",
+    "The user interface",
+    "File management",
+    "User management",
+    "Peripheral management"
+  ],
+  "A program to add three numbers together outputs 145 from 1, 4 and 5 when input. It should output 10. What type of error is this?": [
+    "Logic error",
+    "Logic error"
+  ],
+  "A syntax error happens when…": [
+    "The rules of the language have been broken",
+    "The rules of the language have been broken"
+  ],
+  "What is meant by the term invalid data?": [
+    "Data that the program cannot process and should not accept",
+    "Data that the program cannot process and should not accept"
+  ],
+  "What is meant by the term multi-tasking?": [
+    "Running multiple applications at the same time by giving each a small time-slice of processor time.",
+    "Running multiple applications at the same time by giving each a small time-slice of processor time."
+  ],
+  "Offers a larger range of commands that can be input more quickly and accurately than other interfaces.": [
+    "Command line interface",
+    "Command line interface"
+  ],
+  "Optimised for mouse and touch gesture input.": [
+    "Graphical user interface",
+    "Graphical user interface"
+  ],
+  "Where are programs executed from?": [
+    "Primary storage: RAM & ROM",
+    "Primary storage: RAM & ROM",
+    "Primary storage: RAM & ROM"
+  ],
+  "What does user management mean in the context of an operating system?": [
+    "Providing for different users to log in to a computer retaining their settings and security",
+    "Providing for different users to log in to a computer retaining their settings and security",
+    "Providing for different users to log in to a computer retaining their settings and security"
+  ],
+  "A line of code states: print('Hello World) What type of error is this likely to generate?": [
+    "Syntax error",
+    "Syntax error"
+  ],
+  "What is a reason for program testing at the implementation or post-development stage of development?": [
+    "To check the program has acceptable performance",
+    "To check the program does not contain logic errors",
+    "To check the program meets the requirements",
+    "To check the program has acceptable performance",
+    "To check the program does not contain logic errors"
+  ],
+  "Which best describes the position of an operating system within a computer system?": [
+    "Hardware > Operating System < Applications",
+    "Hardware > Operating System < Applications"
+  ],
+  "Allows advanced users to create scripts to automate tasks.": [
+    "Command line interface",
+    "Command line interface"
+  ],
+  "Why does a programmer use comments in their code?": [
+    "To explain the purpose of sections of code and how algorithms work",
+    "To explain the purpose of sections of code and how algorithms work"
+  ],
+  "What happens when a computer runs out of RAM?": [
+    "Virtual memory is used",
+    "Virtual memory is used"
+  ],
+  "Why would a programmer add indentation to their code?": [
+    "To indicate which code is within a procedure, function, condition or iteration",
+    "To indicate which code is within a procedure, function, condition or iteration"
+  ],
+  "A single option is chosen at each stage which is ideal when the number of options to the user is limited.": [
+    "Menu driven interface",
+    "Menu driven interface"
+  ],
+  "What is one purpose of systems software?": [
+    "To maintain the computer system",
+    "To provide a platform on which users can run programs"
+  ],
+  "Questions can be asked in English using a microphone as an input device.": "Natural language interface",
+  "Iterative testing can be described as…": "Testing each module of a program as it is developed",
+  "Which of these is an example of systems software?": "Operating system",
+  "Which part of the computer system is responsible for where files are stored when saved to secondary storage?": "Operating system",
+  "What is meant by the term boundary data?": "Data at the extremes of the input domain",
+  "A program asks for a month of the year as an integer. The user inputs 6. This is an example of…": "Normal data",
+  "A 'blacklist' is often used as a validation technique in programming. What is a blacklist?": "Invalid data inputs a program should reject. E.g. /?* in filenames",
+  "An online form asks a user for their email address. The user does not enter a string containing a @ symbol. This is an example of…": "Invalid data",
+  "A 'whitelist' is often used as a validation technique in programming. What is a whitelist?": "All the valid data inputs a program should accept. E.g. A, B, C in a menu",
+  "What is compression?": "Reducing the size of a file",
+  "A program asks for a month of the year as an integer. The user inputs 1. This is an example of…": "Boundary data",
+  "A program asks for a month of the year as an integer. The user inputs March. This is an example of…": "Erroneous data",
+  "What is an example of a 'defensive design consideration'?": [
+    "Input validation",
+    "Handling exceptions in programs"
+  ],
+  "Text based, and requiring fewer resource overheads, it is extremely efficient for advanced users.": "Command line interface",
+  "An online form asks a user for their email address. The user forgets to complete this box. This is an example of…": "No data",
+  "Final or terminal testing includes…": [
+    "Checking the program meets the expectations of the user with real data.",
+    "Testing that all the modules of a program work together as expected"
+  ],
+  "A logic error happens when…": "The program completes but does not give the expected output",
+  "A program should output an initial followed by a surname, e.g. T Jones when an input string of Tom Jones is entered. Instead it outputs Tom S. What type of error is this?": "Logic error",
+  "Often uses windows, icons, menus and pointers for input and output to the computer system.": "Graphical user interface",
+  "Which of these is NOT an exception a programmer should trap in their code?": "No comments",
+  "Over time with files being saved and deleted, the secondary storage will become…": "Fragmented",
+  "Which of these is the best example of utility systems software?": "Encryption program",
+  "Identify a format check.": "Input of data in a pattern, e.g. LLN",
+  "What is meant by the term 'validation'?": "Checking data input by the user meets specific criteria before processing",
+  "Identify a range check.": "Input is between a minimum and maximum, e.g. 1 and 12",
+  "A development environment highlights the word OUTPUT when attempting to run this code: OUTPUT('Enter your name') What type of error is this most likely to be?": "Syntax error",
+  "Which of these is a function of the operating system?": "To maintain the computer system",
+  "Why does a programmer use indentation in their code?": "To identify where structures begin and end",
+  "The systems software includes the…": "Operating system and utilities",
+  "What is encryption?": "Converting readable data to an encoded version that can only be decoded with a key",
+  "What is defragmentation?": "Reorganising files on a hard disk",
+  "A very visual output of information and data.": "Graphical user interface",
+  "What is meant by the term normal data?": "Data that is within the input domain",
+  "A line of code states: x + y = z. What type of error is this likely to generate?": "Syntax error",
+  "Why does a programmer use descriptive variable names?": "To make the program readable for another programmer",
+  "A line of code states: print(Total cost) What type of error is this likely to generate?": "Syntax error"
 }
