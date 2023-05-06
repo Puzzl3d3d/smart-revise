@@ -103,6 +103,25 @@ function storeAnswer(answer) {
 
     answerTable = undefined
 }
+function unstoreAnswer(answer) {
+    var answerTable = getAnswerTable()
+
+    if (answerTable[old_question]) {
+        if (typeof(answerTable[old_question]) == "object") {
+            if (answerTable[old_question].includes(answer)) {
+                const index = answerTable[old_question].indexOf(answer)
+                answerTable[old_question].splice(index, 1)
+            }
+        } else {
+            answerTable[old_question] = undefined
+        }
+
+        localStorage.setItem(dataName, JSON.stringify(answerTable))
+        localStorage.setItem("AnswersSaved", Object.keys(answerTable).length)
+
+        answerTable = undefined
+    }
+}
 function onClick(button) {
     setTimeout( () => {
         console.log("Handling click")
@@ -120,6 +139,7 @@ function onClick(button) {
                 correctButton.style.backgroundColor = "#1dc9b7"
 
                 storeAnswer(correctButton.innerText);
+                unstoreAnswer(button.innerText)
             }
 
             handle()
