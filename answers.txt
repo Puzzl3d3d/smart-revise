@@ -423,7 +423,6 @@
   "Which of the following programs is least likely to need random number generation?": "Payroll and tax calculations",
   "What one advantage does using humans have over robotics for the same task?": "They are able to make one-off bespoke products more easily",
   "What is the purpose of a procedure?": [
-    "To return values from small functions",
     "To produce structured code"
   ],
   "Assuming the average MP3 file is 3.5MB, how many songs could you store on an audio CD with a capacity of 640MB?": "182",
@@ -560,7 +559,6 @@
     "a compiler"
   ],
   "Assuming an optical disk has a capacity of 25GB, how many 60 minute HD videos of 3.9GB each could be stored on the disk?": "6",
-  "Which protocol provides secure data communication on the web?": "HTTPS",
   "What is the purpose of the TCP protocol?": "Provides an error free transmission of data between two routers",
   "A company uses images from a well known search engine in their publicity material without applying any filters to their search for appropriate pictures. Which law may have been broken?": "The Copyright Design and Patents Act 1998",
   "Which statement best describes 'Ethernet'?": [
@@ -573,7 +571,6 @@
   "If A = 1, B = 0, C = 0, D = 1. What is the output from the Boolean expression: (A AND B)OR(C AND D)?": "0",
   "What does the following line of pseudocode do in the OCR reference language: x = random(1, 6)?": "Generates a random integer between 1 and 6 and assigns it to x",
   "What does the protocol 'FTP' stand for?": "File Transfer Protocol",
-  "In this line of code, identify a string: score = score + int(input('Enter your score: '))": "'Enter your score: '",
   "A DVD-R holds an archive of thirty, 1.5MB images. The disk has a capacity of 640MB. How much free storage theoretically is left on the drive, assuming no overheads?": "595MB",
   "Which of these is a feature of a low level programming language?": [
     "Translates to one type of machine",
@@ -698,7 +695,6 @@
   "What do switches on a local area network use for routing data?": "MAC address",
   "What does this SQL structure return? WHERE part LIKE 'G%'": "All the parts that begin with G",
   "A parallelogram symbol in a flow diagram is used to signify…": "The input or output of data",
-  "What is 2^4?": "16",
   "Which of these is one advantage of an interpreter over a compiler?": "It is easier to debug code",
   "Which of the following is the least portable form of storage?": "Magnetic hard disk",
   "Arrays or lists have data and…": "An index",
@@ -799,5 +795,8 @@
   "https://smartrevisecdn.azureedge.net/qimages/39/916657911.png?v=0": "OR",
   "https://smartrevisecdn.azureedge.net/qimages/39/1275917164.png?v=0": "AND",
   "https://smartrevisecdn.azureedge.net/qimages/39/2144548730.png?v=0": "NOT",
-  "How many megabytes is 3 gigabytes?": "3000"
+  "How many megabytes is 3 gigabytes?": "3000",
+  "What is 2^4?": "16",
+  "Which protocol provides secure data communication on the web?": "HTTPS",
+  "In this line of code, identify a string: score = score + int(input('Enter your score: '))": "'Enter your score: '"
 }
