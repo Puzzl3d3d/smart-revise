@@ -308,7 +308,6 @@
   "From highest to lowest speed, what is the correct order for these devices?": "Solid state drive, hard disk, CD-R",
   "Which network topology provides the most resilience to faults?": "Full mesh network",
   "What is the purpose of a Domain Name Server?": "To maintain an index of mapped URLs to IP addresses and serve web pages",
-  "How many kilobytes is 360 bytes?": "0.36",
   "A personal, portable blood pressure monitor has some internal secondary storage. Which of these is it likely to be?": "Solid state",
   "Which factor affecting the performance of a network is described as, 'the delay from transmitting data to receiving it.'": "Latency",
   "Four files of 2 megabytes, 2 petabytes, 2 kilobytes and 2 gigabytes are stored. Which uses the most storage capacity?": "2 petabytes file",
@@ -795,8 +794,9 @@
   "https://smartrevisecdn.azureedge.net/qimages/39/916657911.png?v=0": "OR",
   "https://smartrevisecdn.azureedge.net/qimages/39/1275917164.png?v=0": "AND",
   "https://smartrevisecdn.azureedge.net/qimages/39/2144548730.png?v=0": "NOT",
-  "How many megabytes is 3 gigabytes?": "3000",
-  "What is 2^4?": "16",
+  "In this line of code, identify a string: score = score + int(input('Enter your score: '))": "'Enter your score: '",
   "Which protocol provides secure data communication on the web?": "HTTPS",
-  "In this line of code, identify a string: score = score + int(input('Enter your score: '))": "'Enter your score: '"
+  "How many megabytes is 3 gigabytes?": "3000",
+  "How many kilobytes is 360 bytes?": "0.36",
+  "What is 2^4?": "16"
 }
