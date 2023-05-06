@@ -169,7 +169,7 @@ function handleButton(button) {
             button.click()
 
             setTimeout(()=>{window.location.reload();}, 1000)
-        }, 2500 )
+        }, 3000 )
     } else {
         button.style.backgroundColor = "darkgray"
         setTimeout( () => {
@@ -181,7 +181,7 @@ function handleButton(button) {
 
                 setTimeout(()=>{window.location.reload();}, 1000)
             }, 200 + Math.random()*30)
-        }, 2500 )
+        }, 3000 )
     }
 }
 
