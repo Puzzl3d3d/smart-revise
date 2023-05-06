@@ -94,7 +94,6 @@
     "Magnetic"
   ],
   "Which of these describes a classic von Neumann architecture?": [
-    "There is a common system bus for data and instruction transfer",
     "The CPU cannot access instructions and read/write data at the same time",
     "The same physical memory address is used for instructions and data",
     "More than one clock cycle may be required to execute a single instruction",
@@ -289,10 +288,7 @@
   "The Copyright Design and Patents Act 1988 makes it illegal to…": "Distribute intellectual property without permission of the author",
   "A school has built a new computer room and needs to connect each computer to a switch. Speed and reliability are important but cost is an issue, what would you recommend?": "Copper cable",
   "What is the number 6 in binary?": "0000 0110",
-  "What does DNS stand for?": [
-    "Domain Name Server/System",
-    " To convert an input string to an integer"
-  ],
+  "What does DNS stand for?": "Domain Name Server/System",
   "Which of these is a feature of compiled code in an iteration?": "The code is translated once",
   "The TCP/IP protocol is an example of what in computing?": "Standard",
   "One purpose of the accumulator is to…": "Hold the result of calculations from the ALU",
@@ -307,26 +303,14 @@
   ],
   "A desktop PC user wants to maximise the speed of loading and using their operating system (OS), which has frequent updates. Which configuration would work best?": "OS stored on solid state drive, applications on hard drive",
   "With Wi-Fi devices, they must each be set to send and receive data on the same…": "Frequency",
-  "Which of these would you associate with the term, 'error diagnostics'?": [
-    "Messages from the compiler to the programmer",
-    " Array"
-  ],
-  "A box-set of four 4.7GB feature films requires a storage capacity of…": [
-    "18.8GB",
-    " 18.8GB"
-  ],
+  "Which of these would you associate with the term, 'error diagnostics'?": "Messages from the compiler to the programmer",
+  "A box-set of four 4.7GB feature films requires a storage capacity of…": "18.8GB",
   "1024 megabytes is called a…": "Gigabyte",
   "From highest to lowest speed, what is the correct order for these devices?": "Solid state drive, hard disk, CD-R",
-  "Which network topology provides the most resilience to faults?": [
-    "Full mesh network",
-    " Rhombus"
-  ],
+  "Which network topology provides the most resilience to faults?": "Full mesh network",
   "What is the purpose of a Domain Name Server?": "To maintain an index of mapped URLs to IP addresses and serve web pages",
   "How many kilobytes is 360 bytes?": "0.36",
-  "A personal, portable blood pressure monitor has some internal secondary storage. Which of these is it likely to be?": [
-    "Solid state",
-    " Flow diagrams"
-  ],
+  "A personal, portable blood pressure monitor has some internal secondary storage. Which of these is it likely to be?": "Solid state",
   "Which factor affecting the performance of a network is described as, 'the delay from transmitting data to receiving it.'": "Latency",
   "Four files of 2 megabytes, 2 petabytes, 2 kilobytes and 2 gigabytes are stored. Which uses the most storage capacity?": "2 petabytes file",
   "If A = 0, B = 1, C = 1. What is the output from: NOT A OR (B AND C)?": "1",
@@ -345,16 +329,10 @@
   "Which two registers hold data for the CPU?": "Memory Data Register and Accumulator",
   "Structured programming concepts, such as IF-THEN-ELSE are associated with…": "High level language code",
   "Which of the following is the correct format for a MAC address?": "00:10:B5:C4:99:6A",
-  "Why might having strong passwords using letters, numbers and symbols not be a good idea?": [
-    "People find them too difficult to remember and write them down",
-    " People find them too difficult to remember and write them down"
-  ],
+  "Why might having strong passwords using letters, numbers and symbols not be a good idea?": "People find them too difficult to remember and write them down",
   "One advantage of virtual memory is…": "The computer can have more programs loaded at the same time than it has the RAM for",
   "Which device connects a local area network to The Internet?": "Router",
-  "If A = 0, B = 1, C = 1. What is the output from: A AND (B AND C)?": [
-    "0",
-    " 0"
-  ],
+  "If A = 0, B = 1, C = 1. What is the output from: A AND (B AND C)?": "0",
   "What does the protocol 'IMAP' stand for?": "Internet Message Access Protocol",
   "Every computing device which wishes to connect to a LAN or WAN must have one of these.": "Network Interface Controller",
   "What is the binary number 0000 1001 in denary?": "9",
@@ -395,55 +373,27 @@
     "To define which tables will be used",
     "To define which tables will be used"
   ],
-  "1024 terabytes is called a…": [
-    "Petabyte",
-    "Petabyte"
-  ],
-  "A university is installing transmission media between switches in different parts of the campus. It needs to be fast and reliable, cost is not an issue, what would you recommend?": [
-    "Fibre optic",
-    "Fibre optic"
-  ],
-  "A program is written which asks a user for the width, length and depth of a fish tank. It then multiplies the three figures together and tells the user the volume. Identify an output of this problem.": [
-    " Volume",
-    "Volume",
-    "Volume"
-  ],
-  "A collection of related data items for one entity is commonly referred to as a…": [
-    "record",
-    "record"
-  ],
-  "Consider this command: print(board[3,2]). What is the number 3 in this command?": [
-    "An index",
-    "An index"
-  ],
+  "1024 terabytes is called a…": "Petabyte",
+  "A university is installing transmission media between switches in different parts of the campus. It needs to be fast and reliable, cost is not an issue, what would you recommend?": "Fibre optic",
+  "A program is written which asks a user for the width, length and depth of a fish tank. It then multiplies the three figures together and tells the user the volume. Identify an output of this problem.": "Volume",
+  "A collection of related data items for one entity is commonly referred to as a…": "record",
+  "Consider this command: print(board[3,2]). What is the number 3 in this command?": "An index",
   "The reason a computer needs secondary storage is because…": "RAM is volatile and has a relatively small capacity",
   "Which of the following offers the highest bandwidth?": "Fibre optic",
   "What is meant by the term, 'character set'?": "A defined list of characters recognised by the computer hardware and software",
-  "What is meant by the programming construct, 'selection'?": [
-    " A program branch depending on a condition",
-    "A program branch depending on a condition"
-  ],
+  "What is meant by the programming construct, 'selection'?": "A program branch depending on a condition",
   "What is a Boolean data type?": "A value that is true or false, -1/1 or 0",
-  "What does compression do?": [
-    "Reduce the number of bits in a file",
-    "Next Question "
-  ],
+  "What does compression do?": "Reduce the number of bits in a file",
   "A UK company decides to store a database of its customers on a cloud service in another country without informing the customers first, giving them a choice to opt-out. This might not be legal under which Act of Parliament?": "The Data Protection Act 2018",
   "What is the output when the following command is executed? print(CHR(65))": "A",
   "Encoding data in a way that only authorised parties can view it is known as what?": "Encryption",
-  "What is the purpose of the HTTP protocol?": [
-    "To provide a client-server method of requesting and delivering HTML web pages"
-  ],
+  "What is the purpose of the HTTP protocol?": "To provide a client-server method of requesting and delivering HTML web pages",
   "Using part of the hard disk as if it were RAM is known as…": "Virtual memory",
   "In this line of code: FOR counter = 1 to 10 what data type should counter be declared as?": "Integer",
   "What happens in the fetch stage of the fetch-execute cycle?": "An instruction is copied from the main memory into the CPU",
   "What is the main disadvantage of a binary search compared to a linear search?": "It requires the data to be in order",
   "Which flow diagram symbol is used to signify a process?": "Rectangle",
-  "": "Provides a unique physical address for a device so it can connect to a local network",
-  "A programmer wants to show an IF command on a flow diagram. Which symbol should they use?": [
-    " Rhombus",
-    "Rhombus"
-  ],
+  "A programmer wants to show an IF command on a flow diagram. Which symbol should they use?": "Rhombus",
   "In this line of code: x = f.endOfFile(), what data type is x?": "Boolean",
   "What is ^?": "Arithmetic operator",
   "What is the output when the following commands are executed?\ns = 'Hello World'\nprint(s.substring(7,5))\n": "World",
@@ -463,17 +413,11 @@
   "What is the output when the following commands are executed?\ns = 'Hello World'\nprint(s.substring(0,5))\n": "Hello",
   "Which of these data structures is most appropriate for storing a complete record?": "Array",
   "A programmer wants to show a WHILE command on a flow diagram. Which symbol should they use?": "Rhombus",
-  "When designing an algorithm, programmers can use…": [
-    "Flow diagrams",
-    " Flow diagrams"
-  ],
+  "When designing an algorithm, programmers can use…": "Flow diagrams",
   "A rhombus symbol in a flow diagram is used to signify…": "A decision with a yes or no, true or false answer",
   "What is the purpose of the following line of pseudocode? f = open('data.txt')": "Open a file called data.txt ready for reading and writing data",
   "Consider this list of numbers 3 4 5 6 7 8 9. If the number 8 was being searched for using a binary search algorithm, which numbers could be discarded after the first condition?": "3 4 5",
-  "A rectangle symbol in a flow diagram is used to signify…": [
-    " Initialisation, a process or calculation",
-    "Initialisation, a process or calculation"
-  ],
+  "A rectangle symbol in a flow diagram is used to signify…": "Initialisation, a process or calculation",
   "What is a real number?": "A number that may have a fractional component",
   "In this line of code, identify an operator: score = score + int(input('Enter your score: '))": "+",
   "What is an assignment?": "Giving a variable or constant a value",
@@ -680,10 +624,7 @@
   "Which of these is an example of 'challenge response'?": "Users have to click 'I am not a robot' on data entry forms",
   "USB memory sticks are classified as what type of storage?": "Solid state",
   "Which of these commands is the best example of a condition controlled loop?": "WHILE",
-  "In this line of code, identify a variable: score = score + int(input('Enter your score: '))": [
-    " Flooding a server with traffic so it is unable to process legitimate requests.",
-    "score"
-  ],
+  "In this line of code, identify a variable: score = score + int(input('Enter your score: '))": "score",
   "A student creates a key logging application that sits unnoticed in the background on a PC in a school computer room. Later in the day the student accesses a log of the usernames and passwords entered during the day. Which Act makes this illegal?": "The Computer Misuse Act 1990",
   "Which of the following has the lowest cost for storage byte for byte?": "Internal magnetic hard disk",
   "Which of these is a feature of interpreted code in an iteration?": "The code is translated many times",
@@ -753,10 +694,7 @@
   "What is meant by the term casting?": "Converting a variable from one data type to another",
   "Which word should be used in this sentence? High level source code can be … into machine code using a compiler.": "translated",
   "What technique can be used to make sure no logical errors exist in an algorithm?": "Trace table",
-  "How is a digital sample size calculated?": [
-    "(Sample rate) x (Bit depth per sample) x (Duration in seconds)",
-    "(Sample rate) x (Bit depth per sample) x (Duration in seconds)"
-  ],
+  "How is a digital sample size calculated?": "(Sample rate) x (Bit depth per sample) x (Duration in seconds)",
   "Assuming f is a pointer to an open file, what is the purpose of the following line of pseudocode? f.writeLine('Hello World')": "Write the string Hello World to a file",
   "What is the purpose of the POP protocol?": "To retrieve email from an email server",
   "What do switches on a local area network use for routing data?": "MAC address",
@@ -771,120 +709,42 @@
   "If A = 0, B = 0, C = 1, D = 1. What is the output from the Boolean expression: (A OR B)AND(C OR D)?": "0",
   "What diagram can we use to help us break down a problem in order to identify the components of a problem?": "Structure diagram",
   "Consider this list of numbers: 9 3 6 8 4 7. After three comparisons have been made the list is 3 6 9 8 4 7. Which algorithm is being applied?": "Insertion sort",
-  "What is the purpose of a device driver?": [
-    "Translates commands from the operating system into hardware specific commands",
-    "Translates commands from the operating system into hardware specific commands"
-  ],
-  "Identify a type check.": [
-    "Input is a number not a symbol, e.g. 0 not @",
-    "Input is a number not a symbol, e.g. 0 not @"
-  ],
-  "If you were advising another programmer about using comments, what would you recommend?": [
-    "Use a comment for each selection, iteration and procedure or function",
-    "Use a comment for each selection, iteration and procedure or function"
-  ],
-  "A program asks for a month of the year as an integer. The user inputs 12. This is an example of…": [
-    "Boundary data",
-    "Boundary data"
-  ],
-  "Reliability of data entry is often an issue with this type of interface.": [
-    "Natural language interface",
-    "Natural language interface"
-  ],
-  "Which components of a computer system would you associate a device driver with?": [
-    "Peripherals",
-    "Peripherals"
-  ],
-  "Identify a presence check.": [
-    "Input of some data, e.g. user hasn't left the field blank",
-    "Input of some data, e.g. user hasn't left the field blank"
-  ],
-  "When a program is loaded, what does the operating system do?": [
-    "Allocate memory for the program",
-    "Allocate memory for the program"
-  ],
-  "Why is virtual memory used?": [
-    "To allow more programs to execute than could be possible with the physical RAM available",
-    "To allow more programs to execute than could be possible with the physical RAM available"
-  ],
+  "What is the purpose of a device driver?": "Translates commands from the operating system into hardware specific commands",
+  "Identify a type check.": "Input is a number not a symbol, e.g. 0 not @",
+  "If you were advising another programmer about using comments, what would you recommend?": "Use a comment for each selection, iteration and procedure or function",
+  "A program asks for a month of the year as an integer. The user inputs 12. This is an example of…": "Boundary data",
+  "Reliability of data entry is often an issue with this type of interface.": "Natural language interface",
+  "Which components of a computer system would you associate a device driver with?": "Peripherals",
+  "Identify a presence check.": "Input of some data, e.g. user hasn't left the field blank",
+  "When a program is loaded, what does the operating system do?": "Allocate memory for the program",
+  "Why is virtual memory used?": "To allow more programs to execute than could be possible with the physical RAM available",
   "Which of these tasks is the responsibility of the operating system?": [
     "User management",
     "Peripheral management",
     "Deciding where to load programs in to the RAM",
     "The user interface",
-    "File management",
-    "User management",
-    "Peripheral management"
+    "File management"
   ],
-  "A program to add three numbers together outputs 145 from 1, 4 and 5 when input. It should output 10. What type of error is this?": [
-    "Logic error",
-    "Logic error"
-  ],
-  "A syntax error happens when…": [
-    "The rules of the language have been broken",
-    "The rules of the language have been broken"
-  ],
-  "What is meant by the term invalid data?": [
-    "Data that the program cannot process and should not accept",
-    "Data that the program cannot process and should not accept"
-  ],
-  "What is meant by the term multi-tasking?": [
-    "Running multiple applications at the same time by giving each a small time-slice of processor time.",
-    "Running multiple applications at the same time by giving each a small time-slice of processor time."
-  ],
-  "Offers a larger range of commands that can be input more quickly and accurately than other interfaces.": [
-    "Command line interface",
-    "Command line interface"
-  ],
-  "Optimised for mouse and touch gesture input.": [
-    "Graphical user interface",
-    "Graphical user interface"
-  ],
-  "Where are programs executed from?": [
-    "Primary storage: RAM & ROM",
-    "Primary storage: RAM & ROM",
-    "Primary storage: RAM & ROM"
-  ],
-  "What does user management mean in the context of an operating system?": [
-    "Providing for different users to log in to a computer retaining their settings and security",
-    "Providing for different users to log in to a computer retaining their settings and security",
-    "Providing for different users to log in to a computer retaining their settings and security"
-  ],
-  "A line of code states: print('Hello World) What type of error is this likely to generate?": [
-    "Syntax error",
-    "Syntax error"
-  ],
+  "A program to add three numbers together outputs 145 from 1, 4 and 5 when input. It should output 10. What type of error is this?": "Logic error",
+  "A syntax error happens when…": "The rules of the language have been broken",
+  "What is meant by the term invalid data?": "Data that the program cannot process and should not accept",
+  "What is meant by the term multi-tasking?": "Running multiple applications at the same time by giving each a small time-slice of processor time.",
+  "Offers a larger range of commands that can be input more quickly and accurately than other interfaces.": "Command line interface",
+  "Optimised for mouse and touch gesture input.": "Graphical user interface",
+  "Where are programs executed from?": "Primary storage: RAM & ROM",
+  "What does user management mean in the context of an operating system?": "Providing for different users to log in to a computer retaining their settings and security",
+  "A line of code states: print('Hello World) What type of error is this likely to generate?": "Syntax error",
   "What is a reason for program testing at the implementation or post-development stage of development?": [
     "To check the program has acceptable performance",
     "To check the program does not contain logic errors",
-    "To check the program meets the requirements",
-    "To check the program has acceptable performance",
-    "To check the program does not contain logic errors"
+    "To check the program meets the requirements"
   ],
-  "Which best describes the position of an operating system within a computer system?": [
-    "Hardware > Operating System < Applications",
-    "Hardware > Operating System < Applications"
-  ],
-  "Allows advanced users to create scripts to automate tasks.": [
-    "Command line interface",
-    "Command line interface"
-  ],
-  "Why does a programmer use comments in their code?": [
-    "To explain the purpose of sections of code and how algorithms work",
-    "To explain the purpose of sections of code and how algorithms work"
-  ],
-  "What happens when a computer runs out of RAM?": [
-    "Virtual memory is used",
-    "Virtual memory is used"
-  ],
-  "Why would a programmer add indentation to their code?": [
-    "To indicate which code is within a procedure, function, condition or iteration",
-    "To indicate which code is within a procedure, function, condition or iteration"
-  ],
-  "A single option is chosen at each stage which is ideal when the number of options to the user is limited.": [
-    "Menu driven interface",
-    "Menu driven interface"
-  ],
+  "Which best describes the position of an operating system within a computer system?": "Hardware > Operating System < Applications",
+  "Allows advanced users to create scripts to automate tasks.": "Command line interface",
+  "Why does a programmer use comments in their code?": "To explain the purpose of sections of code and how algorithms work",
+  "What happens when a computer runs out of RAM?": "Virtual memory is used",
+  "Why would a programmer add indentation to their code?": "To indicate which code is within a procedure, function, condition or iteration",
+  "A single option is chosen at each stage which is ideal when the number of options to the user is limited.": "Menu driven interface",
   "What is one purpose of systems software?": [
     "To maintain the computer system",
     "To provide a platform on which users can run programs"
@@ -939,5 +799,6 @@
   "https://smartrevisecdn.azureedge.net/qimages/39/305153339.png?v=0": "NOT A OR B",
   "https://smartrevisecdn.azureedge.net/qimages/39/489509518.png?v=0": "NOT",
   "https://smartrevisecdn.azureedge.net/qimages/39/916657911.png?v=0": "OR",
-  "https://smartrevisecdn.azureedge.net/qimages/39/1275917164.png?v=0": "AND"
+  "https://smartrevisecdn.azureedge.net/qimages/39/1275917164.png?v=0": "AND",
+  "https://smartrevisecdn.azureedge.net/qimages/39/2144548730.png?v=0": "NOT"
 }
