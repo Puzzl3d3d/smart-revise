@@ -263,7 +263,6 @@
     "Access files anytime, anywhere"
   ],
   "What best describes virtual memory?": "Using the hard disk as if it were memory",
-  "How many megabytes is 3 gigabytes?": "3000",
   "A student who is new to programming wants their code to run, even if it contains errors so that they can more easily see where the bugs are. What would you recommend?": "An interpreter",
   "One advantage of solid-state memory over a hard disk is that…": [
     "It uses less power",
@@ -351,8 +350,7 @@
   "Installing cameras and an electronic key pads are examples of what type prevention?": "Physical security",
   "One disadvantage of virtual memory is…": "It slows the computer down because of the extra data transfer needed",
   "What is the purpose of the HTTPS protocol?": [
-    "To provide encryption and authentication for requesting and delivering HTML web pages",
-    "To provide a secure protocol for the uploading of web pages to a server for hosting"
+    "To provide encryption and authentication for requesting and delivering HTML web pages"
   ],
   "Why was the new IP address standard IPv6 needed?": "We were running out of unique IPv4 addresses",
   "Which of these features is typically provided by an integrated development environment?": "Run-time environment",
@@ -800,5 +798,6 @@
   "https://smartrevisecdn.azureedge.net/qimages/39/489509518.png?v=0": "NOT",
   "https://smartrevisecdn.azureedge.net/qimages/39/916657911.png?v=0": "OR",
   "https://smartrevisecdn.azureedge.net/qimages/39/1275917164.png?v=0": "AND",
-  "https://smartrevisecdn.azureedge.net/qimages/39/2144548730.png?v=0": "NOT"
+  "https://smartrevisecdn.azureedge.net/qimages/39/2144548730.png?v=0": "NOT",
+  "How many megabytes is 3 gigabytes?": "3000"
 }
