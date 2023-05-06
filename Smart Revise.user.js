@@ -30,7 +30,7 @@ function handle() {
     var question = questiontext.src || questiontext.innerText
     console.log(question)
     if (question==old_question) {
-        setTimeout( handle, 500 );
+        setTimeout( handle, 200 );
     } else {
         old_question = question
 
@@ -140,9 +140,13 @@ function onClick(button) {
 
                 storeAnswer(correctButton.innerText);
                 unstoreAnswer(button.innerText)
+
+                localStorage.setItem("LAST_INCORRECT", old_question)
             }
 
-            handle()
+            //handle()
+
+            window.location.reload();
         } else {
             setTimeout(() => {
                 onClick(button)
@@ -150,16 +154,6 @@ function onClick(button) {
             return
         }
 
-        setTimeout(() => {
-            if (document.getElementsByClassName(noticeButtonClass)[0]) {
-                document.getElementsByClassName(noticeButtonClass)[0].click();
-            };
-        }, 200);
-
-
-        setTimeout(() => {
-            document.getElementById(nextButtonID).click()
-        }, 1000)
 
    }, 0)
 }
@@ -168,13 +162,13 @@ function handleButton(button) {
         onClick(button)
     });
     button.disabled = true
-    if (answerTable[old_question] && (answerTable[old_question] == button.innerText || answerTable[old_question].includes(button.innerText))) {
+    if (answerTable[old_question] && (answerTable[old_question] == button.innerText || (typeof(answerTable[old_question]) == "object" && answerTable[old_question].includes(button.innerText)))) {
         button.style.backgroundColor = "blueviolet"
         setTimeout( () => {
             button.disabled = false
             button.click()
 
-            setTimeout( () => { window.location.reload(); }, 1500 )
+            setTimeout(()=>{window.location.reload();}, 1000)
         }, 2500 )
     } else {
         button.style.backgroundColor = "darkgray"
@@ -184,8 +178,9 @@ function handleButton(button) {
 
             setTimeout( () => {
                 button.click()
-                setTimeout( () => { window.location.reload(); }, 2500 )
-            }, 500 + Math.random()*50)
+
+                setTimeout(()=>{window.location.reload();}, 1000)
+            }, 200 + Math.random()*30)
         }, 2500 )
     }
 }
