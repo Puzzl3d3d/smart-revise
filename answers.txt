@@ -795,8 +795,8 @@
   "https://smartrevisecdn.azureedge.net/qimages/39/1275917164.png?v=0": "AND",
   "https://smartrevisecdn.azureedge.net/qimages/39/2144548730.png?v=0": "NOT",
   "In this line of code, identify a string: score = score + int(input('Enter your score: '))": "'Enter your score: '",
-  "Which protocol provides secure data communication on the web?": "HTTPS",
   "How many megabytes is 3 gigabytes?": "3000",
   "How many kilobytes is 360 bytes?": "0.36",
-  "What is 2^4?": "16"
+  "What is 2^4?": "16",
+  "Which protocol provides secure data communication on the web?": "HTTPS"
 }
